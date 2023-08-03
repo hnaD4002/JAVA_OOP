@@ -1,11 +1,9 @@
- package BTVN;
+ //package BTVN;
 
 import java.util.LinkedList;
 import java.util.Scanner;
 
-class Board{
-	
-}
+
 public class Bai_4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
