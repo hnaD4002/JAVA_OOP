@@ -1,6 +1,5 @@
  //package BTVN;
 
-import java.util.LinkedList;
 import java.util.Scanner;
 
 
@@ -61,8 +60,6 @@ public class Bai_4 {
 				System.out.println("x4 = " + x4);
 			}
 		}
-		LinkedList<String> one = new LinkedList<>();
-		one.add("Hello");
 		input.close();
 	}
 }
