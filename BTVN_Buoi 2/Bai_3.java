@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 public class Bai_3 {
@@ -26,5 +25,6 @@ public class Bai_3 {
 			System.out.println(n + " khong phai la so nguyen to!");
 		}
 		input.close();
+
 	}
 }
