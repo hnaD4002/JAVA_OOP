@@ -47,21 +47,26 @@ public class Bai_2 {
 		}
 		System.out.print("Nhap vi tri can xoa: ");
 		int pos = input.nextInt();
-		if(pos < 0 || pos > n-1){
+		if(pos < 0 || pos > n){
 			System.out.println("Vi tri xoa khong hop le!");
 			return;
 		}
-		pos--;
 		int[] newA = new int[n-1];
-		for(int i = 0; i < pos; i++)
-			newA[i] = a[i];
-		for(int i = pos; i < n-1; i++)
-			newA[i] = a[i+1];
+		if(pos == n){
+			for(int i = 0; i < pos-1; i++)
+				newA[i] = a[i];
+		}else{
+			pos--;
+			for(int i = 0; i < pos; i++)
+				newA[i] = a[i];
+			for(int i = pos; i < n-1; i++)
+				newA[i] = a[i+1];
+		}
 		for(int i :newA)
 		System.out.print(i + " ");
 	}
 	public static void main(String[] args) {
-		Bai_2_Them();
+		//Bai_2_Them();
 		System.out.println();
 		Bai_2_Xoa();
 	}
