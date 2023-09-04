@@ -107,4 +107,36 @@ class PhongMay {
 				"Tên Quản Lý");
 		a.Xuat();
 	}
+
+	public Scanner getInput() {
+		return input;
+	}
+
+	public void setInput(Scanner input) {
+		this.input = input;
+	}
+
+	public QuanLy getX() {
+		return x;
+	}
+
+	public void setX(QuanLy x) {
+		this.x = x;
+	}
+
+	public Computer[] getY() {
+		return y;
+	}
+
+	public void setY(Computer[] y) {
+		this.y = y;
+	}
+
+	public int getN() {
+		return n;
+	}
+
+	public void setN(int n) {
+		this.n = n;
+	}
 }
